@@ -364,4 +364,12 @@ export const LEAF_CATEGORIES = defineLeafCategories([
             "Tools to pull public market data, including quotes, fundamentals, " +
             "earnings, screeners, and more.",
     },
+    {
+        id: "macroeconomic-data",
+        displayName: "Macroeconomic Data",
+        description:
+            "Cross-country macroeconomic indicators — growth, inflation, " +
+            "unemployment, debt, trade, and crisis windows, generated from " +
+            "open data sources.",
+    },
 ]);
