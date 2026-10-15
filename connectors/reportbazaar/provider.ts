@@ -31,7 +31,7 @@ export default defineProvider({
     timeouts: { requestMs: 30_000, runMs: 45_000 },
     usage: {
         // Per-call US-dollar settlement. The endpoint declares the flat
-        // $0.05/call; Monid adds its channel fee on top for the end user.
+        // $0.03/call; Monid adds its channel fee on top for the end user.
         credits: { default: { label: "US dollars" } },
     },
 });
