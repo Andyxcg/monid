@@ -13,7 +13,7 @@ import { zReportBazaarGetReportQueryParams } from "./schema/inputs.ts";
 export default defineEndpoint({
     meta: {
         displayName: "Fetch Macro Report",
-        summary: "Fetch any of 115 cross-country macroeconomic reports by id.",
+        summary: "Fetch any of 171 cross-country macroeconomic reports by id.",
         description: "Fetch a single macroeconomic report by its id " +
             "(e.g. 'macro-gdp', 'pair-us-cn', 'shock-covid'). Returns the " +
             "full year-by-year panel plus derived analytics as HTML, JSON, or " +
@@ -31,7 +31,7 @@ export default defineEndpoint({
         model: {
             kind: UsageModelKind.PER_CALL,
             label: "report",
-            consumes: { credit: "default", amount: 0.05 },
+            consumes: { credit: "default", amount: 0.03 },
         },
     },
     timeouts: { requestMs: 30_000, runMs: 45_000 },

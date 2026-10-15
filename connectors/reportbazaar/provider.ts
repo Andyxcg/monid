@@ -13,7 +13,7 @@ export default defineProvider({
     meta: {
         displayName: "ReportBazaar",
         summary: "Machine-generated cross-country macroeconomic reports.",
-        description: "115 machine-generated macroeconomic reports built from " +
+        description: "171 machine-generated macroeconomic reports built from " +
             "World Bank Open Data (CC BY 4.0), covering 20 economies and 24 " +
             "categories across 2015–2025 — growth, inflation, unemployment, " +
             "debt, trade, and crisis windows. Each report is a clean HTML, " +
